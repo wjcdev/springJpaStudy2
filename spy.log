@@ -1,0 +1,80 @@
+1737036648157|2|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select * from INFORMATION_SCHEMA.SEQUENCES|select * from INFORMATION_SCHEMA.SEQUENCES
+1737036648416|3|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop table if exists member cascade |     drop table if exists member cascade 
+1737036648417|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1737036648420|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1737036648423|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )
+1737036649043|2|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select next value for member_seq|select next value for member_seq
+1737036649084|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|insert into member (user_name,id) values (?,?)|insert into member (user_name,id) values ('memberA',1)
+1737036649086|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop||
+1737036660590|2|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select * from INFORMATION_SCHEMA.SEQUENCES|select * from INFORMATION_SCHEMA.SEQUENCES
+1737036660826|4|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop table if exists member cascade |     drop table if exists member cascade 
+1737036660827|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1737036660830|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1737036660832|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )
+1737036661402|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select next value for member_seq|select next value for member_seq
+1737036661436|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|insert into member (user_name,id) values (?,?)|insert into member (user_name,id) values ('memberA',1)
+1737036661437|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop||
+1737036700025|2|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select * from INFORMATION_SCHEMA.SEQUENCES|select * from INFORMATION_SCHEMA.SEQUENCES
+1737036700265|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop table if exists member cascade |     drop table if exists member cascade 
+1737036700265|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1737036700268|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1737036700271|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )
+1737036700844|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select next value for member_seq|select next value for member_seq
+1737036700884|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|insert into member (user_name,id) values (?,?)|insert into member (user_name,id) values ('memberA',1)
+1737036700886|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop||
+1737036705875|3|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select * from INFORMATION_SCHEMA.SEQUENCES|select * from INFORMATION_SCHEMA.SEQUENCES
+1737036706115|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop table if exists member cascade |     drop table if exists member cascade 
+1737036706116|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1737036706118|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1737036706120|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )
+1737036706692|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select next value for member_seq|select next value for member_seq
+1737036706730|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|insert into member (user_name,id) values (?,?)|insert into member (user_name,id) values ('memberA',1)
+1737036706732|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop||
+1737036716947|2|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select * from INFORMATION_SCHEMA.SEQUENCES|select * from INFORMATION_SCHEMA.SEQUENCES
+1737036717194|1|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop table if exists member cascade |     drop table if exists member cascade 
+1737036717195|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1737036717198|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1737036717200|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )
+1737036717787|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select next value for member_seq|select next value for member_seq
+1737036717821|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|insert into member (user_name,id) values (?,?)|insert into member (user_name,id) values ('memberA',1)
+1737036717822|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop||
+1737036979099|3|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select * from INFORMATION_SCHEMA.SEQUENCES|select * from INFORMATION_SCHEMA.SEQUENCES
+1737036979339|2|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop table if exists member cascade |     drop table if exists member cascade 
+1737036979340|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1737036979342|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1737036979344|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )
+1737036979909|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select next value for member_seq|select next value for member_seq
+1737036979947|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|insert into member (user_name,id) values (?,?)|insert into member (user_name,id) values ('memberA',1)
+1737036979948|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop||
+1737037025138|2|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select * from INFORMATION_SCHEMA.SEQUENCES|select * from INFORMATION_SCHEMA.SEQUENCES
+1737037025368|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop table if exists member cascade |     drop table if exists member cascade 
+1737037025369|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1737037025371|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1737037025373|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )
+1737037025969|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|select next value for member_seq|select next value for member_seq
+1737037026005|0|statement|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop|insert into member (user_name,id) values (?,?)|insert into member (user_name,id) values ('memberA',1)
+1737037026006|0|commit|connection 0|url jdbc:p6spy:h2:tcp://localhost/~/jpaShop||
+1737038180846|2|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|select * from INFORMATION_SCHEMA.SEQUENCES|select * from INFORMATION_SCHEMA.SEQUENCES
+1737038181095|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     drop table if exists member cascade |     drop table if exists member cascade 
+1737038181095|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1737038181097|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1737038181100|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )
+1737038181705|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|select next value for member_seq|select next value for member_seq
+1737038181747|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|insert into member (user_name,id) values (?,?)|insert into member (user_name,id) values ('memberA',1)
+1737038181748|0|commit|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE||
+1737038191750|3|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|select * from INFORMATION_SCHEMA.SEQUENCES|select * from INFORMATION_SCHEMA.SEQUENCES
+1737038191996|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     drop table if exists member cascade |     drop table if exists member cascade 
+1737038191997|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1737038191999|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1737038192001|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )
+1737038192592|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|select next value for member_seq|select next value for member_seq
+1737038192626|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|insert into member (user_name,id) values (?,?)|insert into member (user_name,id) values ('memberA',1)
+1737038192628|0|commit|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE||
+1737038249543|2|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|select * from INFORMATION_SCHEMA.SEQUENCES|select * from INFORMATION_SCHEMA.SEQUENCES
+1737038249798|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     drop table if exists member cascade |     drop table if exists member cascade 
+1737038249798|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     drop sequence if exists member_seq|     drop sequence if exists member_seq
+1737038249801|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     create sequence member_seq start with 1 increment by 50|     create sequence member_seq start with 1 increment by 50
+1737038249803|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )|     create table member (         id bigint not null,         user_name varchar(255),         primary key (id)     )
+1737038250400|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|select next value for member_seq|select next value for member_seq
+1737038250443|0|statement|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE|insert into member (user_name,id) values (?,?)|insert into member (user_name,id) values ('memberA',1)
+1737038250445|0|commit|connection 0|url jdbc:p6spy:h2:file:/Users/wjdev/jpaShop;DB_CLOSE_ON_EXIT=FALSE||
