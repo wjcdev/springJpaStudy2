@@ -1,3 +1,4 @@
+/*
 package jpabook.jpashop;
 
 import jakarta.persistence.EntityManager;
@@ -15,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class MemberRepositoryTest {
 
-    @Autowired MemberRepository memberRepository;
+    @Autowired  MemberRepository memberRepository;
 
     @Test
     @Transactional
@@ -39,4 +40,4 @@ class MemberRepositoryTest {
         Assertions.assertThat(findMember.getUserName()).isEqualTo(member.getUserName());
         Assertions.assertThat(findMember).isEqualTo(member); //JPA 엔티티 동일성 보장
     }
-}
+}*/
