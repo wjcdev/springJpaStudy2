@@ -37,9 +37,11 @@ public class MemberRepository {
                 .getResultList(); // jpql : sql과 기능적으로 동일하지만 엔티티 객체를 대상으로 함
     }
 
-    public List<Member> findByName(String name) { // 특정 회원만 조회
-        return em.createQuery("select m from Member m where m.name = : name", Member.class)
+    public List<Member> findByName(String name) {
+        return em.createQuery("select m from Member m where m.name = :name", Member.class)
                 .setParameter("name", name)
                 .getResultList();
     }
+
+
 }
