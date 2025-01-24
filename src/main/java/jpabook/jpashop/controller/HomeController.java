@@ -13,7 +13,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home() {
-        log.debug("home controller");
+        log.info("home controller");
         return "home"; // home.html
     }
 
