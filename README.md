@@ -16,8 +16,30 @@
 - API 트랜잭션 관리 및 서비스 계층 구조
 - 테스트 코드 작성 및 Best Practice 적용
 
+
 ---
 
+## 개발 환경
+
+### 시스템 요구 사항
+- **Java**: OpenJDK 21 (LTS)
+- **Gradle**: 8.10.2
+- **IDE**: IntelliJ IDEA 또는 기타 Java IDE
+- **Database**: H2 (in-memory database)
+- **OS**: Mac OS X 15.1.1 (aarch64) 또는 이에 상응하는 환경
+
+### 주요 라이브러리 및 프레임워크
+- Spring Boot 3.2.11
+- Spring Data JPA
+- Hibernate 6.4.10.Final
+- H2 Database
+- JUnit 5
+
+---
+
+## 프로젝트 구조
+
+```
 ## 📂 프로젝트 구조
 jpashop/
 ├── .gradle/                # Gradle 관련 파일
@@ -48,53 +70,6 @@ jpashop/
 ├── README.md                   # 프로젝트 설명 파일
 ├── .gitignore                   # Git Ignore 설정
 
-
----
-
-## 개발 환경
-
-### 시스템 요구 사항
-- **Java**: OpenJDK 21 (LTS)
-- **Gradle**: 8.10.2
-- **IDE**: IntelliJ IDEA 또는 기타 Java IDE
-- **Database**: H2 (in-memory database)
-- **OS**: Mac OS X 15.1.1 (aarch64) 또는 이에 상응하는 환경
-
-### 주요 라이브러리 및 프레임워크
-- Spring Boot 3.2.11
-- Spring Data JPA
-- Hibernate 6.4.10.Final
-- H2 Database
-- JUnit 5
-
----
-
-## 프로젝트 구조
-
-```
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── jpabook
-│   │   │       ├── jpashop
-│   │   │       │   ├── domain
-│   │   │       │   ├── repository
-│   │   │       │   ├── service
-│   │   │       │   └── controller
-│   │   └── resources
-│   │       ├── application.yml
-│   │       └── static
-│   └── test
-│       ├── java
-│       │   └── jpabook
-│       │       └── jpashop
-│       │           └── service
-│       └── resources
-├── build.gradle
-├── gradlew
-├── gradlew.bat
-├── settings.gradle
-└── README.md
 ```
 
 ---
