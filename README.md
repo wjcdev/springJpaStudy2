@@ -1,15 +1,53 @@
 # JPA Shop
 
 ## 프로젝트 소개
-JPA Shop은 Spring Boot와 JPA를 사용하여 구현된 간단한 쇼핑몰 백엔드 애플리케이션입니다. 
-이 프로젝트는 JPA 학습을 위해 설계되었으며, 주요 기능은 다음과 같습니다:
+# 🛠 Spring JPA Study 2 (API 중심 학습)
 
-- 회원 관리 (등록, 조회, 중복 검증 등)
-- 상품 관리
-- 주문 기능
-- 데이터베이스 연동 및 테스트 자동화
+이 저장소는 **김영한님의 "스프링 JPA 2" 강의**를 기반으로 **API 중심 학습**을 진행하는 프로젝트입니다.  
+주요 목표는 JPA와 Spring Boot를 활용하여 **RESTful API를 구축하고, 실무에서 활용 가능한 코드 패턴을 익히는 것**입니다.
 
-본 프로젝트는 **인프런 김영한님의 강좌**를 바탕으로 개발되었습니다.
+---
+
+## 📌 학습 목표
+- JPA 기본 개념 및 활용
+- Spring Data JPA 활용
+- API 개발을 위한 DTO & 엔티티 설계
+- 쿼리 최적화 및 성능 개선 (fetch join, N+1 문제 해결)
+- API 트랜잭션 관리 및 서비스 계층 구조
+- 테스트 코드 작성 및 Best Practice 적용
+
+---
+
+## 📂 프로젝트 구조
+jpashop/
+├── .gradle/                # Gradle 관련 파일
+├── .idea/                  # 인텔리제이 프로젝트 설정 파일
+├── build/                  # Gradle 빌드 결과 폴더
+├── gradle/                 # Gradle Wrapper 관련 파일
+├── src/
+│   ├── main/
+│   │   ├── java/jpabook/jpashop/
+│   │   │   ├── controller/    # API 및 MVC 컨트롤러
+│   │   │   ├── domain/        # JPA 엔티티 (DB 모델)
+│   │   │   ├── exception/     # 예외 처리 관련 클래스
+│   │   │   ├── repository/    # JPA Repository (데이터 액세스)
+│   │   │   ├── service/       # 비즈니스 로직
+│   │   │   ├── Hello.java     # 테스트용 클래스
+│   │   │   ├── HelloController.java  # 간단한 컨트롤러
+│   │   │   ├── JpashopApplication.java  # 메인 실행 클래스
+│   │   ├── resources/
+│   │   │   ├── static/        # 정적 리소스 (CSS, JS, 이미지)
+│   │   │   ├── templates/     # Thymeleaf HTML 템플릿
+│   │   │   ├── application.yml  # Spring Boot 설정 파일
+│   │   │   ├── spy.properties  # 추가적인 설정 파일
+│   ├── test/
+│   │   ├── java/               # 테스트 코드 (JUnit 등)
+│   │   ├── resources/
+│   │   │   ├── application.yml  # 테스트 환경 설정
+├── build.gradle (또는 pom.xml)  # Gradle/Maven 빌드 파일
+├── README.md                   # 프로젝트 설명 파일
+├── .gitignore                   # Git Ignore 설정
+
 
 ---
 
